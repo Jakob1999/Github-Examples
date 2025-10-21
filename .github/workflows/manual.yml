@@ -23,6 +23,8 @@ jobs:
       - name: Decode File Content
         run: |
           echo "This is it ${{ inputs.data }}"
+          echo "This is it with content ${{ inputs.data.content }}"
+          echo "This is it with data ${{ inputs.data.data }}"
           echo "${{ inputs.data }}" | base64 --decode > ./decoded_file.txt
       - name: Display Greeting
         run: |
