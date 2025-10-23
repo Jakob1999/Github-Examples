@@ -12,10 +12,10 @@ jobs:
         steps:
 
           - name: step 1
-            run: echo "Hello"
+            run: echo "Hello world, this is a test"
 
           - name: step 2
-            run: echo "world"
+            run: echo
 
           - name: step 3
-            run: echo "sup?"
+            run: echo
