@@ -1,0 +1,21 @@
+name: Learning
+
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+    learn-and-master:
+        runs-on: ubuntu-latest
+
+        steps:
+
+          - name: step 1
+            run: echo "Hello"
+
+          - name: step 2
+            run: echo "world"
+
+          - name: step 3
+            run: echo "sup?"
