@@ -12,7 +12,7 @@ jobs:
         if: contains('Hello world', 'llo')
         run: echo "The string contains the substring."
       - name: Check if string starts with
-        if: startsWith('Hello world', 'He')
+        if: startsWith('Hello world', 'he')
         run: echo "The string starts with 'He'."
       - name: Check if string ends with
         if: endsWith('Hello world', 'ld')
